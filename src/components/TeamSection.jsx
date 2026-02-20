@@ -25,7 +25,7 @@ const teamMembers = [
 
 const TeamSection = () => {
   return (
-    <section className="bg-gradient-to-r from-black via-gray-900 to-red-900 py-16 px-6">
+    <section className=" py-16 px-6">
       
       {/* Heading */}
       <div className="text-center mb-12">

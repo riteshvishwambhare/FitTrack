@@ -1,6 +1,19 @@
 @import "tailwindcss";
 
-body{
-    background-color: oklch(87.944% 0.03272 254.066);
+body {
+  position: relative;
+  color: white;
+  margin: 0;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("/src/assets/bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  z-index: -1;
+}

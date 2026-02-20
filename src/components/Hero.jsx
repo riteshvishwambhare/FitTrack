@@ -3,7 +3,7 @@ import heroImage from "../assets/Hero.jpg";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[400px] md:h-[600px]">
+    <div className="relative w-full h-[400px] md:h-[600px] ">
       <img
         src={heroImage}
         alt="Fitness Hero"

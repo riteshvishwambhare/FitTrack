@@ -41,8 +41,8 @@ const plans = [
 
 const Membership = () => {
   return (
-    <div className="min-h-screen bg-[oklch(87.944%_0.03272_254.066)] py-12 sm:py-16 px-4 sm:px-6">
-      <h2 className="text-2xl sm:text-4xl md:text-4xl font-bold text-center mb-10 sm:mb-12">
+    <div className="min-h-screen text-black py-12 sm:py-16 px-4 sm:px-6">
+      <h2 className="text-white text-2xl sm:text-4xl md:text-4xl font-bold text-center mb-10 sm:mb-12">
         Choose Your Membership Plan
       </h2>
 
