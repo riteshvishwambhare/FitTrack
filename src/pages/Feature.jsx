@@ -68,7 +68,7 @@ const FeatureData = [
           className="w-full h-full object-cover"
         />
 
-        <div className="absolute bottom-170 left-0 bg-black/60 text-white p-8 w-full">
+        <div className="absolute bottom-0 left-0 bg-black/60 text-white p-8 w-full">
           <h2 className="text-2xl font-bold mb-2">
             {activeFeature.title}
           </h2>

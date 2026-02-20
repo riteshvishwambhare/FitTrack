@@ -9,7 +9,7 @@ const teamMembers = [
   {
     name: "Priya Singh",
     role: "Yoga Instructor",
-    img: "https://images.unsplash.com/photo-1594381898411-846e7d193883",
+    img: "https://images.unsplash.com/photo-1518611012118-696072aa579a",
   },
   {
     name: "Amit Verma",
@@ -19,7 +19,7 @@ const teamMembers = [
   {
     name: "Sneha Patel",
     role: "Nutrition Expert",
-    img: "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+    img: "https://images.unsplash.com/photo-1594381898411-846e7d193883",
   },
 ];
 
