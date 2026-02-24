@@ -19,24 +19,24 @@ const ExerciseDetails = () => {
   };
 
   return (
-    <div className="min-h-screen text-white py-10 px-6 flex flex-col items-center justify-center">
+    <div className="min-h-screen text-whitepx-4 flex flex-col items-center">
       
-      <h1 className="text-4xl font-bold mb-10">
+      <h1 className="text-2xl md:text-4xl font-bold mb-10 text-center whitespace-nowrap">
         Body Part Exercises
       </h1>
 
-      <div className="flex items-center gap-6">
+      <div className="flex flex-col items-center gap-6">
         
         {/* Left Button */}
         <button
           onClick={prevSlide}
           className="bg-gradient-to-r from-black via-gray-900 to-red-900 px-5 py-3 rounded-full text-xl hover:bg-red-700"
         >
-          {"<"}
+          {"Back"}
         </button>
 
         {/* Card */}
-        <div className="w-full max-w-md overflow-hidden">
+        <div className="w-90 max-w-md overflow-hidden">
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{
@@ -50,7 +50,7 @@ const ExerciseDetails = () => {
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="w-full h-69 object-cover"
+                    className="w-full h-55 object-cover"
                   />
 
                   <div className="p-8">
@@ -91,7 +91,7 @@ const ExerciseDetails = () => {
           onClick={nextSlide}
           className="bg-gradient-to-r from-black via-gray-900 to-red-900 px-5 py-3 rounded-full text-xl hover:bg-red-700"
         >
-          {">"}
+          {"Next"}
         </button>
 
       </div>

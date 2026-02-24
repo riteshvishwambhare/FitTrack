@@ -2,13 +2,14 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Exercises from "./pages/Exercises";
+import Exercises from "./pages/ExerciseFullShow/Exercises";
 import Membership from "./pages/Membership";
 import "./App.css";
 import Feature from "./pages/Feature";
 import ServiceDetails from "./components/OurServices/ServiceDetails";
 import ExerciseDetails from "./pages/ExerciseDetails";
 import ExerciseFullDetail from "./pages/ExerciseFullDetail";
+import ExerciseFullShow from "./pages/ExerciseFullShow/ExerciseFullShow";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
          <Route path="/services/:id" element={<ServiceDetails />} />
          <Route path="/exercise-details" element={<ExerciseDetails />} />
           <Route path="/exercise-full/:name" element={<ExerciseFullDetail />} />
+          <Route path="/exercise/:id" element={<ExerciseFullShow />} />
       
 
       </Routes>
