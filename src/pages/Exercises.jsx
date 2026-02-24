@@ -1,12 +1,18 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import chestImg from "../assets/BodyPartEx/chest.jpg"
+import backImg from "../assets/BodyPartEx/back.jpg"
+import BicepImg from "../assets/BodyPartEx/Bicep.jpg"
+import legsImg from "../assets/BodyPartEx/legs.jpg"
+
 
 const Exercises = () => {
 
   const gymImages = {
-  chest: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61",
-  legs: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
-  back: "https://images.unsplash.com/photo-1599058917212-d750089bc07e",
+  chest: chestImg,
+  back: backImg,
+  biceps: BicepImg,
+  legs: legsImg,
 };
 
 
