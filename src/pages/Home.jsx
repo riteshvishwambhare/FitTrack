@@ -18,11 +18,8 @@ const Home = () => {
       <section className="w-full">
         <Hero />
       </section>
-
-      {/* Main Content Wrapper */}
       <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
 
-        {/* Muscle Groups */}
         <section className="py-10 sm:py-14">
           <PopularMuscleGroups
             selected={selectedMuscle}
@@ -30,34 +27,28 @@ const Home = () => {
           />
         </section>
 
-        {/* Cards */}
+       
         <section className="py-10 sm:py-14">
           <Cards />
         </section>
 
-        {/* Exercise Details */}
         <section className="py-10 sm:py-14">
           <ExerciseDetails />
         </section>
 
-        {/* Services */}
         <section className="py-10 sm:py-14">
           <OurServices />
         </section>
 
-        {/* Info */}
         <section className="py-10 sm:py-14">
           <InfoBrowse />
         </section>
 
-        {/* Team */}
         <section className="py-10 sm:py-14">
           <TeamSection />
         </section>
 
       </div>
-
-      {/* Footer */}
       <Footer />
 
     </div>
