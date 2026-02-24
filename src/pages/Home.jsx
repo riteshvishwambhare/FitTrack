@@ -5,8 +5,9 @@ import InfoBrowse from '../components/InfoBrowse';
 import Footer from '../components/Footer';
 import PopularMuscleGroups from '../components/PopularMuscleGroups';
 import { useState } from 'react';
-import OurServices from '../components/OurServices';
-import TeamSection from '../components/TeamSection';
+import OurServices from '../components/OurServices/OurServices';
+import TeamSection from '../components/TeamSection/TeamSection';
+import ExerciseDetails from './ExerciseDetails';
 const Home = () => {
 
   const [selectedMuscle, setSelectedMuscle] = useState("all");
@@ -20,6 +21,7 @@ const Home = () => {
       />
 
       <Cards />
+      < ExerciseDetails/>
       <OurServices/>
       <InfoBrowse />
       <TeamSection/>
