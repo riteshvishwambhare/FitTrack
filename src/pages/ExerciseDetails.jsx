@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import exerciseData from "../data/ExerciseData";
+import { exerciseData } from "../data/ExerciseData";
+
 
 
 const ExerciseDetails = () => {

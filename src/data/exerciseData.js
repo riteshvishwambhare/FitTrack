@@ -5,7 +5,7 @@ import legsImg from "../assets/BodyPartEx/legs.jpg"
 
 
 
-const exerciseData = [
+export const exerciseData = [
   {
     name: "Chest",
     image: chestImg,
@@ -51,5 +51,3 @@ const exerciseData = [
       "Leg exercises like squats, lunges, leg press, and Romanian deadlifts develop quads and glutes."
   }
 ];
-
-export default exerciseData;
