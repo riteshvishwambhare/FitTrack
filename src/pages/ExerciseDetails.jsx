@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import exerciseData from "../data/ExerciseData";
 
+
 const ExerciseDetails = () => {
   const navigate = useNavigate();
   const [currentIndex, setCurrentIndex] = useState(0);
