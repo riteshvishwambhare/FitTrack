@@ -46,7 +46,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="text-center py-4 border-t border-white/20 text-sm">
-        © {new Date().getFullYear()} FitTrack. All rights reserved.
+        © {new Date().getFullYear()} FitTrack. All rights reserved
       </div>
     </footer>
   );
